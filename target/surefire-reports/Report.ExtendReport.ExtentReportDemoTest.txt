@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: Report.ExtendReport.ExtentReportDemoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.523 s <<< FAILURE! - in Report.ExtendReport.ExtentReportDemoTest
+Report.ExtendReport.ExtentReportDemoTest.googleHomePage  Time elapsed: 13.571 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KFC89GU', ip: '192.168.86.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\BASEME~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d8d9164590c3138456d20219e6e56457
+	at Report.ExtendReport.ExtentReportDemoTest.googleHomePage(ExtentReportDemoTest.java:44)
+
