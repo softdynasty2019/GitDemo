@@ -43,6 +43,7 @@ public class ExtentReportDemoTest {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
 		System.out.println("USA QA CODE");
+		System.out.println("Bangladesh QA CODE");
 		driver.getTitle();
 		driver.close();
 		extent.flush();
